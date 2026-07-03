@@ -1,0 +1,7 @@
+---
+- name: Create administrator
+  user:
+    name: automationadmin
+    shell: /bin/bash
+    groups: sudo
+    append: true
